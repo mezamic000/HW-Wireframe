@@ -4,40 +4,43 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="style.css" />
     <title>Document</title>
 </head>
 <body>
-    <header>
+    <header class="header">
         header
     </header>
     <nav>
         nav
     </nav>
-    <aside>
-        <header>
-            aside
-        </header>
-    </aside>
-    <section>
-      <header>
-          section
-      </header>  
-    
-    <article>
-        <header>
-            article
-        </header>
-        <h1>
-            h1,h2,h3
-        </h1>
-        <p>
-            p
-        </p>
-        <footer>
+    <div class="container">
+        <aside>
+            <header>
+                aside
+            </header>
+        </aside>
+        <section class="child">
+            <header class="section">
+                section
+            </header>  
+            <article>
+                <header>
+                    article
+                </header>
+                <section class="inner">
+                    <h1 class="baby1">
+                        h1, h2, h3
+                    </h1>
+                    <p class="baby2">
+                        p
+                    </p>
+                </section>
+            </article>
+    </div>
+            <footer>
             footer
-        </footer>
-
-    </article>
-    </section>
+            </footer>
+        </section>
 </body>
 </html>
